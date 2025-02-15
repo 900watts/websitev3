@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="900watts的个人网站 - Scratch创作者">
+    <meta name="keywords" content="900watts, Scratch, 游戏开发, 创意编程">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="900watts">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://img.icons8.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Set-Cookie" content="HttpOnly; Secure; SameSite=Strict">
+    <link rel="icon" href="900watts.jpg" type="image/jpeg">
+    <title data-lang="page-title">900watts的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://img.icons8.com">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="site-title" data-lang="site-title">900watts的个人网站</h1>
+            <ul class="nav-links">
+                <li><a href="#home" data-lang="nav-home">首页</a></li>
+                <li><a href="#about" data-lang="nav-about">关于</a></li>
+                <li><a href="#services" data-lang="nav-works">作品</a></li>
+                <li><a href="#contact" data-lang="nav-follow">关注</a></li>
+                <li class="language-switch">
+                    <button onclick="toggleLanguage()" class="lang-btn">
+                        <span class="lang-text">EN</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 首页部分 -->
+        <section id="home">
+            <div class="hero-content">
+                <div class="power-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">12</span>
+                        <span class="stat-label" data-lang="age-label">岁</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">16+</span>
+                        <span class="stat-label" data-lang="works-label">作品</span>
+                    </div>
+                </div>
+                <p class="tech-description" data-lang="intro-text">
+                    Hi, 我是一个喜欢制作开挂项目的12岁创作者，希望你能喜欢我的作品！
+                </p>
+            </div>
+        </section>
+
+        <!-- 关于部分 -->
+        <section id="about">
+            <h2 data-lang="about-title">关于我</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="tech-icon">🎮</i>
+                    <h3 data-lang="game-dev">游戏开发</h3>
+                    <p data-lang="game-dev-desc">专注策略游戏开发<br>正在开发新的策略游戏</p>
+                </div>
+                <div class="tech-card">
+                    <i class="tech-icon">💡</i>
+                    <h3 data-lang="creative-features">创作特色</h3>
+                    <p data-lang="creative-desc">擅长制作开挂版本<br>独特的游戏玩法设计</p>
+                </div>
+                <div class="tech-card">
+                    <i class="tech-icon">🌟</i>
+                    <h3 data-lang="community">社区活动</h3>
+                    <p data-lang="community-desc">活跃的Scratcher<br>关注多个创作社区</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品部分 -->
+        <section id="services">
+            <h2 data-lang="works-title">精选作品</h2>
+            <div class="carousel">
+                <div class="slides">
+                    <div class="slide active">
+                        <div class="service-item">
+                            <div class="service-icon">💬</div>
+                            <h3 data-lang="chat-title">Scratch-chat remix</h3>
+                            <p data-lang="chat-desc">聊天应用程序</p>
+                            <a href="https://scratch.mit.edu/projects/977582264/" class="project-link" target="_blank" rel="noopener noreferrer" data-lang="view-project">查看作品</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="service-item">
+                            <div class="service-icon">🧙</div>
+                            <h3 data-lang="quidditch-title">Harry Potter: The Quidditch Games</h3>
+                            <p data-lang="quidditch-desc">哈利波特魁地奇游戏</p>
+                            <a href="https://scratch.mit.edu/projects/918998824/" class="project-link" target="_blank" rel="noopener noreferrer" data-lang="view-project">查看作品</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="service-item">
+                            <div class="service-icon">🚀</div>
+                            <h3 data-lang="among-us-title">太空狼人杀 3.0</h3>
+                            <p data-lang="among-us-desc">在线多人游戏</p>
+                            <a href="https://scratch.mit.edu/projects/662049467/" class="project-link" target="_blank" rel="noopener noreferrer" data-lang="view-project">查看作品</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 社区链接部分 -->
+        <section id="contact">
+            <h2 data-lang="follow-title">关注我</h2>
+            <div class="contact-container">
+                <a href="https://scratch.mit.edu/users/900watts/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="social-icon">🎨</i>
+                    <span data-lang="scratch-profile">Scratch主页</span>
+                </a>
+                <a href="https://scratch.mit.edu/studios/31095054/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="social-icon">🏢</i>
+                    <span data-lang="studio-profile">我的工作室</span>
+                </a>
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <span class="stat-number">16</span>
+                        <span class="stat-label" data-lang="shared-works">共享作品</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label" data-lang="following-studios">关注的工作室</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 邮件联系图标 -->
+    <div class="contact-icon">
+        <a href="mailto:wattsrules@hotmail.com" class="outlook-link" title="通过Outlook联系我">
+            <img src="https://img.icons8.com/color/48/000000/microsoft-outlook-2019--v2.png" 
+                alt="Outlook" 
+                class="outlook-icon"
+                crossorigin="anonymous">
+            <span data-lang="contact-text">通过Outlook联系我</span>
+        </a>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p data-lang="copyright">&copy; 2024 900watts. 保留所有权利.</p>
+        <p data-lang="disclaimer" class="disclaimer">
+            本网站为个人作品展示，游戏作品均为粉丝创作。Harry Potter和Among Us为其各自所有者的商标。
+            图标来自 <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+        </p>
+    </footer>
+</body>
+</html>

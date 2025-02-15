@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://900watts.com/sitemap.xml 
